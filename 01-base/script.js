@@ -12,5 +12,7 @@
 (function() {
 
     // your code here
+    var welcome ='Hello, World!';
+    alert(welcome);
 
 })();
