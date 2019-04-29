@@ -16,15 +16,25 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
-        var x= document.getElementById("number").value;
-        function factorial(){
-                  if (x === 0)
-            {
-                return 1;
-            }
-            return x * factorial(x-1);
+        var x= document.getElementById("number");
+        var num= x.value
+        var result= function fac(num){
+                if (num === 1){
+                    return 1;
+                }
+                return num*fac(num-1);
+        };
+        console.log(result);
+      
+        
+        // function factorial(n) {
+        //     if ((n === 0) || (n === 1))
+        //       return 1;
+        //     else
+        //       return (n * factorial(n - 1));
+        //   }
            
-        } document.getElementById("result").innerHTML= x;
+         document.getElementById("result").innerHTML= result ;
 
                 });
 
