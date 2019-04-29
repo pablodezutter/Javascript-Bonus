@@ -17,14 +17,14 @@
 
         // your code here
         
-        var x= document.getElementById("numbers").value; 
-        var y =[x];
+        var x= document.getElementById("numbers"); 
+        var y = x.value.split(",");
         console.log(y);
 
-        var result= y.sort (function(a, b){
+        y.sort (function(a, b){
         return a - b;
         });
-        document.getElementById("display").innerText=result
+        document.getElementById("display").innerText=y;
         
     
               

@@ -34,6 +34,9 @@ Als i*i < 22 dan doen we...
 ##sort numbers
 numb.sort(function a, b){return a-b}); ! let op spatie tussen a, b!!
 nummers overnemen door nieuwe array te creëren
+how important are , in the new array? 
+
 
 ##Factorial
 get number and put it in new div
+
