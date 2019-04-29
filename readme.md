@@ -21,8 +21,19 @@ Bonus: added a button to clear the fields
 ##maths calculator two 
 Struggling with switch - i should put somewhere "function when the button gets clicked" but don't know where, or is it already there. Excisting code?
 
+##even-square
+loop maken om getallen weer te geven
+
 #Monday 29th of April
+
 var text toekennen, var i toekennen, loop werkt niet;
 "" vergeten bij getElementById("newpar");
 'Bruce' merkt op dat Sqrt niet van toepassing is op deze oefenening, hij heeft ook een geheel andere interpretatie van de oefening. 
 Als i*i < 22 dan doen we...
+
+##sort numbers
+numb.sort(function a, b){return a-b}); ! let op spatie tussen a, b!!
+nummers overnemen door nieuwe array te creëren
+
+##Factorial
+get number and put it in new div
