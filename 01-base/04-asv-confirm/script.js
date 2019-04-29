@@ -12,26 +12,23 @@
 (function() {
 
     // your code here
+
+   
 var age= prompt("What is your age?");
 var gender= prompt("What is your gender?");
 var location= prompt("Where do you live?");
 
-if(age !== null){
-    var gender;
+while(age!== null || gender!== null || location!== null){
+    alert('Is this correct?');
+  
 
-}else{
-    var age;
+    }
+   
+    if (age == null || gender == null || location == null){
+        alert('somethings missing');
 
-}
-if(gender!== null){
-    var location;
-}else{
-    var age;
-}
-if(location!== null){
- alert('thank you')
-}else{
-    var age;
+    }
+     ;
 }
 
 

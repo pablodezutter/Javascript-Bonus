@@ -9,3 +9,14 @@ create subfolders, add them to rep
 ## var prompt if
 14:32 combine prompt, alert with if else
 
+#Friday 26th of April
+## var prompt if
+Still chewing on this exercise, while loop seems difficult with prompt
+
+##maths- calculator one
+Thank you Alexandre for your suggestion ;) I had a little trouble putting the result on the page.
+Adding a div helped.
+Bonus: added a button to clear the fields
+
+##maths calculator two 
+Struggling with switch - i should put somewhere "function when the button gets clicked" but don't know where, or is it already there. Excisting code?

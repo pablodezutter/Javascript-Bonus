@@ -13,13 +13,16 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
-            //make a loop between 1 -21
-            for(i=1; i<21; i++){
-                text += "The number is " + i + "<br>";
-            }
+        console.log("clicky");
+     //   your code here
+         //   make a loop between 1 -21
+         var i;
+         var text="";
+                for(i=1; i<21; i++){
+                text += [i] + "<br>";
+           }
+           document.getElementById(newpar).innerHTML= text;
             //use sqrt()
-
     });
 
 })();
