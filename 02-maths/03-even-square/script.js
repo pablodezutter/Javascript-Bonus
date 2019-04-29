@@ -14,17 +14,23 @@
     document.getElementById("run").addEventListener("click", function() {
 
         console.log("clicky");
-     //   your code here
+         //   your code here
          //   make a loop between 1 -21
          var i;
          var text="";
-                for(i=1; i<21; i++){
-                text += [i] + "<br>";
+                for(i=1; i<22; i++){
+                if (i*i < 22) {
+                    text += [i * i] + "<br>";
+                }
            }
-           document.getElementById("newpar").innerHTML= text;
-            
+           document.getElementById("newpar").innerHTML=text;
+                     
+           //
            
-           //use sqrt()
+
+
+
+
     });
 
 })();
