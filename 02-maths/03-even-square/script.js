@@ -21,8 +21,10 @@
                 for(i=1; i<21; i++){
                 text += [i] + "<br>";
            }
-           document.getElementById(newpar).innerHTML= text;
-            //use sqrt()
+           document.getElementById("newpar").innerHTML= text;
+            
+           
+           //use sqrt()
     });
 
 })();
