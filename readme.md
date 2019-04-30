@@ -47,4 +47,7 @@ werkt nog niet#
 What do I need: a loop which creates the numbers (1-100), so also at least one variable, in this case an Array. 
 A forEach to call the function on each element in the array. 
 Too bad i can't use switch here, because you have to name the statement (case red, case blue, case green)
+if i put  if (i%3===0 && i%5===0){
+                        console.log("" + "fizzbuzz"); on top and add
+                    "continue"; than it stops controlling the other two and writing fizz, buzz, fizzbuzz!
 

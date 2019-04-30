@@ -15,22 +15,19 @@
 
     var i;
     for (i=1; i <101;i++ ){
-console.log(i);
-            switch(i){
-                case (i % 3==0);
-                    console.log(i + "" + "fizz");
-                    break;
-                case (i%5==0);
-                    console.log(i + "" + "buzz" );
-                    break;
-                case (i%3==0 && i%5==0);
-                    console.log(i + "" + "fizzbuzz");
-                    break;
-
-
-
+                    console.log(i);
+                if (i%3===0 && i%5===0){
+                        console.log("" + "fizzbuzz");
+                        continue;
+                }
+                if(i % 3==0){
+                    console.log("" + "fizz");
+                }    
+                if (i%5==0){
+                    console.log("" + "buzz" );
+                }   
+                
+                              
             }
-
-    }
 
 })();
