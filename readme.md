@@ -53,3 +53,12 @@ if i put  if (i%3===0 && i%5===0){
 
 Fre D.S. leert mij truc om cijfers en tekst naast elkaar te zetten in console
 
+## Terug naar prompt if
+Getting closer.
+Nog niet gevonden wat er precies met de loop functie moet gebeuren.
+
+## Colors
+I first wanted to use "container" in a var, but it accually is not needed,document.body works fine
+
+##
+

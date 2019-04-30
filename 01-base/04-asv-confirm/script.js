@@ -19,7 +19,7 @@ var gender= prompt("What is your gender?");
 var location= prompt("Where do you live?");
 var i = [age, gender, location]
 
-
+for(){
 
 if (age !== null && age !==""){
 console.log("true");
@@ -35,7 +35,7 @@ confirm("Is this correct?" + age + gender + location );
    // console.log("doitagain");
     var age= prompt("What is your age?");
     } 
-
+}
 
 
 
