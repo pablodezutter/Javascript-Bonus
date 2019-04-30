@@ -40,5 +40,11 @@ how important are , in the new array? -> with split you create seperate elements
 ##Factorial
 get number and put it in new div
 recursive functions
-werkt nog niet
+werkt nog niet#
+
+#Tuesday 30th of April
+##FizzBuzz
+What do I need: a loop which creates the numbers (1-100), so also at least one variable, in this case an Array. 
+A forEach to call the function on each element in the array. 
+Too bad i can't use switch here, because you have to name the statement (case red, case blue, case green)
 
