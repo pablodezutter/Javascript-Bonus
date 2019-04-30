@@ -17,19 +17,29 @@
 var age= prompt("What is your age?");
 var gender= prompt("What is your gender?");
 var location= prompt("Where do you live?");
+var i = [age, gender, location]
 
-while(age!== null || gender!== null || location!== null){
-    alert('Is this correct?');
-  
 
-    }
-   
-    if (age == null || gender == null || location == null){
-        alert('somethings missing');
 
-    }
-     ;
+if (age !== null && age !==""){
+console.log("true");
 }
+if(gender !==null && gender!==""){
+console.log("also true");
+}
+if(location !==null && location!==""){
+confirm("Is this correct?" + age + gender + location );
+
+}else{
+    (confirm === false )
+   // console.log("doitagain");
+    var age= prompt("What is your age?");
+    } 
+
+
+
+
+
 
 
 })();
