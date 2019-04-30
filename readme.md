@@ -51,3 +51,5 @@ if i put  if (i%3===0 && i%5===0){
                         console.log("" + "fizzbuzz"); on top and add
                     "continue"; than it stops controlling the other two and writing fizz, buzz, fizzbuzz!
 
+Fre D.S. leert mij truc om cijfers en tekst naast elkaar te zetten in console
+

@@ -13,21 +13,31 @@
 
     // your code here
 
-    var i;
+    var i, logStr;
     for (i=1; i <101;i++ ){
-                    console.log(i);
-                if (i%3===0 && i%5===0){
-                        console.log("" + "fizzbuzz");
-                        continue;
+                logStr= `${i}`;
+                if (i%3==0 && i%5==0){
+                      // console.log(", " + "fizzbuzz");
+                    //   logStr = `${i} , fizzbuzz`;
+                    logStr += `, fizzbuzz`;
+                    // continue;
                 }
-                if(i % 3==0){
-                    console.log("" + "fizz");
+                else if(i % 3==0){
+                   // console.log(", fizz");
+                    logStr += `, fizz`;
                 }    
-                if (i%5==0){
-                    console.log("" + "buzz" );
+                else if (i%5==0){
+                    //console.log(", " + "buzz" );
+                    logStr+= `, buzz`;
                 }   
-                
+                // else{
+                //     
+
+                //}
+                console.log(logStr); 
                               
             }
+
+    
 
 })();
