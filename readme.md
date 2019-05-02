@@ -58,7 +58,10 @@ Getting closer.
 Nog niet gevonden wat er precies met de loop functie moet gebeuren.
 
 ## Colors
-I first wanted to use "container" in a var, but it accually is not needed,document.body works fine
+1. I first wanted to use "container" in a var, but it accually is not needed,document.body works fine
+2. Building on the previous exerc.
+3. onclick, get random color 
+ rgb(0, 255, 202) = hoe is een rgb opgesteld= tussen 0 en 255
+ functie math random a, b ,c
 
-##
 

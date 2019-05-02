@@ -14,20 +14,31 @@
     // your code here
     
     var clickBtn= document.getElementById("run");
-    var i;
+    //var newBg= document.body.style.backgroundColor=newColor;
+    
     var arr=[];//empty array
-    var newColor= 'rgb(' + arr[0] + ',' + arr[1] + ',' + arr[2] +',)';
+  //  var newColor= makeColor();
+    
 
-    run.addEventListener("click", () => {
-       // if clickBtn then do
+//         clickBtn.addEventListener("click",makeColor(){
+//        // if clickBtn then do
         
-//loop start at [0], do this 3 times 
-        for(i=0;i<3;i++){
-//var with math.floor (removes dec points)and math random (pic a number 0-1)
-            var num=Math.floor(Math.random()*256);
-//array with 3 randomnumber'strings'
-            arr.push(num);
-        }
+                //loop start at [0], do this 3 times 
+                var i;
+                        for(i=0; i<3; i++){
+                //var with math.floor (removes decimal points)and math random (pic a number 0-1)
+                        var num=Math.floor(Math.random()*256);
+                //array with 3 randomnumber'strings'
+                        arr.push(num);
+                        console.log(arr);
+//         } 
+ } ; 
+    
+        // clickBtn.addEventListener("click", showColor(){
+        // function showColor()
+        // var createColor= 'rgb(' + arr[0] + ',' + arr[1] + ',' + arr[2] + ')';
+        //         document.getElementById("rgb").innerHTML=newBg;
+        // return (createColor);
 
-        });
+
 })();
