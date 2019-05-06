@@ -69,4 +69,14 @@ Nog niet gevonden wat er precies met de loop functie moet gebeuren.
  opmaken van getallen lukt maar de functie voert maar 1x uit, moet telkens refresh drukken
 
 ##Dates
+-> switching to exercices of Thijs
 
+#Monday 6th of May
+## Dates
+###title by hour 1
+the addEventListener 'load' didn't work, tried it with arrowfunction and it's working
+!! use right varnames! 
+
+###title by hour 2
+same exercise as previous except working with minutes now
+made a mistake in my previous exercise - didn't refer to var groet but to var hours; 

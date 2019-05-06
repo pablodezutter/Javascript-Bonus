@@ -9,29 +9,35 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+//(function() {
 
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-var groet;
+//var groet= document.getElementById("target").innerHTML
 var d= new Date();
 var hours= d.getHours();
 
 
     // your code here
-  
-window.onload = (event) => {
-  console.log('page is fully loaded');
-  if (hours <18) {
-      hours="Goodmorning";
-    }else{
-    hours= "Goodevening";
-}
 
-  document.getElementById("target").innerHTML=hours;
-  document.getElementById("target").style.fontsize= "xx-large";
-}
+  //document.addEventListener("load",function(){
+window.onload = (event) => {
+
+console.log('page is fully loaded');
+  if (hours <18) {
+    document.getElementById("target").innerHTML= "Goodmorning";
+     //var groet="Goodmorning";
+     
+    
+    }else{
+      document.getElementById("target").innerHTML= "Goodevening";
+     //var groet="Goodevening";
+      }
+    };
+ 
+
+ 
        
 
 
 
-})();
+//})();
