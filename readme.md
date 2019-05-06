@@ -80,11 +80,16 @@ the addEventListener 'load' didn't work, tried it with arrowfunction and it's wo
 ###title by hour 2
 same exercise as previous except working with minutes now
 made a mistake in my previous exercise - didn't refer to var groet but to var hours; 
-hour <17u, min > 30 (less than)
+hour <17, min > 30 (less than)
 
 ###age by select
 document doesn't reload if I choose a date, using value on the right place helps
 
 ### locale date
+
+###get spooky fridays
+first get the information from the label
+make a function to fetch the fridays, 13th in the year, so we need to points 1th of the given year and last --> difficult
+
 
 
