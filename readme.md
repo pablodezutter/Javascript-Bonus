@@ -85,3 +85,6 @@ hour <17u, min > 30 (less than)
 ###age by select
 document doesn't reload if I choose a date, using value on the right place helps
 
+### locale date
+
+
