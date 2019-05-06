@@ -63,6 +63,10 @@ Nog niet gevonden wat er precies met de loop functie moet gebeuren.
 3. onclick, get random color 
  rgb(0, 255, 202) = hoe is een rgb opgesteld= tussen 0 en 255
  functie math random a, b ,c
+ 
+ #Thursday 2th of May
+
  opmaken van getallen lukt maar de functie voert maar 1x uit, moet telkens refresh drukken
 
+##Dates
 

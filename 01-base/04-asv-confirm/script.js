@@ -15,26 +15,29 @@
 
    
 var age= prompt("What is your age?");
-var gender= prompt("What is your gender?");
-var location= prompt("Where do you live?");
-var i = [age, gender, location]
+ prompt("What is your gender?");
+ prompt("Where do you live?");
+//let q= (age, gender, location);
+var i;
 
-for(){
+// for (i=0; i <3; i++){
+//     if (age!=="null"|| age!==""){
+//         return (gender)
+    
+//     }else{
+//         //alert('false - ' + age);
+//        return (age)
+//     }
 
-if (age !== null && age !==""){
-console.log("true");
-}
-if(gender !==null && gender!==""){
-console.log("also true");
-}
-if(location !==null && location!==""){
-confirm("Is this correct?" + age + gender + location );
+// }
+function checkInput(){
 
-}else{
-    (confirm === false )
-   // console.log("doitagain");
-    var age= prompt("What is your age?");
-    } 
+if (prompt != null ){
+confirm("is dit correct?")
+
+
+}else
+window.document.reload () ;
 }
 
 

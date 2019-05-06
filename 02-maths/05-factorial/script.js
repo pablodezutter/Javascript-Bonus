@@ -20,11 +20,11 @@
         var num= x.value
         var result= function fac(num){
                 if (num === 1){
-                    return 1;
+                    return (1);
                 }
-                return num*fac(num-1);
-        };
-        console.log(result);
+                return (num*fac(num-1));
+        
+        
       
         
         // function factorial(n) {
@@ -34,8 +34,8 @@
         //       return (n * factorial(n - 1));
         //   }
            
-         document.getElementById("result").innerHTML= result ;
+        document.getElementById("result").innerHTML= result ;
 
-                });
+               });
 
 })();
