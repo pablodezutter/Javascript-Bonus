@@ -80,3 +80,8 @@ the addEventListener 'load' didn't work, tried it with arrowfunction and it's wo
 ###title by hour 2
 same exercise as previous except working with minutes now
 made a mistake in my previous exercise - didn't refer to var groet but to var hours; 
+hour <17u, min > 30 (less than)
+
+###age by select
+document doesn't reload if I choose a date, using value on the right place helps
+

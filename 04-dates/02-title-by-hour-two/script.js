@@ -22,17 +22,17 @@
 
     window.onload = (event) => {
 
-        console.log('page is fully loaded');
-          if (hours <17 && min <30) {
-              groet="Hello";
-            }else{
-            groet= "Goodevening";
-         }
-        
-          document.getElementById("target").innerHTML=groet;
-          document.getElementById("target").style.fontsize= "xx-large";
-        }
-
+     
+        if (hours<17 && min >=30) {
+          document.getElementById("target").innerHTML= "Goodmorning";
+           //var groet="Goodmorning";
+           
+          
+          }else{
+            document.getElementById("target").innerHTML= "Goodevening";
+           //var groet="Goodevening";
+            }
+          };
 
 
 
