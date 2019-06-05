@@ -69,7 +69,7 @@ var location= prompt("What is your location?");
 var r= confirm(age + gender + location);
 
 if (r==true){
-return("thank you" + age + gender + location);
+prompt("Thank you!" + age + gender + location);
 
 }else{
 location.reload();
