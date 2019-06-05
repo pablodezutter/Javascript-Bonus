@@ -91,5 +91,12 @@ document doesn't reload if I choose a date, using value on the right place helps
 first get the information from the label
 make a function to fetch the fridays, 13th in the year, so we need to points 1th of the given year and last --> difficult
 
+#Wednesday 8th of May
+
+## arrays
+oefening 1,2,3 were ok
+ex 4 was ok
+ex 5 was a little hard
+ex 6 finding in an array? -> still looking
 
 
